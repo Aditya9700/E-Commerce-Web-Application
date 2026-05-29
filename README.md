@@ -1,26 +1,27 @@
-# 👑 GadgetHub — Premium E-Commerce Web Application
+# GadgetHub — Premium E-Commerce Web Application
 
+Live Link : https://e-commerce-web-application-ofp0su4mc.vercel.app/
 **GadgetHub** is a production-ready, full-stack e-commerce web application specializing in premium mobiles, laptops, and consumer electronics. Built using the **MERN (MongoDB, Express, React, Node.js)** stack, it delivers a secure, highly interactive user experience alongside a robust admin management dashboard.
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-### 🛒 Customer Experience
+###  Customer Experience
 *   **Dynamic Catalog**: Browse and filter premium smartphones, high-performance laptops, and accessories.
 *   **Intuitive Shopping Cart**: Real-time cart calculations, responsive updates, and persistent user sessions.
 *   **Secure Authentication**: JWT-based user registration and login with local token management.
 *   **Order Tracking**: Simple and seamless checkout with complete order history and real-time statuses.
 *   **Polished UX**: Modern layouts, responsive styling, active state highlights, and premium interactive elements.
 
-### 👑 Admin Control Panel
+### Admin Control Panel
 *   **Dashboard Analytics**: Visual counters for total products, orders, pending items, and delivered sales.
 *   **Product Management**: Full CRUD interface for adding, editing, and deleting inventory items.
 *   **Order Fulfillment**: Live system to monitor incoming orders and update delivery states.
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Layer | Technology | Key Capabilities |
 | :--- | :--- | :--- |
@@ -32,7 +33,7 @@
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 e-com-app/
@@ -103,24 +104,3 @@ To run this application locally, you will need **Node.js** and a **MongoDB** con
 Open your browser and visit **`http://localhost:5173`** to access the application!
 
 ---
-
-## 🌐 Production Deployment Guide
-
-This project is fully configured for deployment on **Vercel** (Frontend) and **Render** (Backend).
-
-### A. Deploy Backend to Render
-1. Create a **Web Service** on Render and link this GitHub repository.
-2. Set **Root Directory** to `backend`.
-3. Set **Build Command** to `npm install` and **Start Command** to `npm start`.
-4. Add the environment variables:
-   *   `MONGO_URI` (your MongoDB Atlas connection string)
-   *   `JWT_SECRET` (your JWT secret)
-   *   `NODE_ENV` = `production`
-5. Copy your live Render URL (e.g. `https://gadgethub-backend.onrender.com`).
-
-### B. Deploy Frontend to Vercel
-1. Create a **New Project** on Vercel and import this GitHub repository.
-2. Set **Root Directory** to `frontend`.
-3. Add the environment variable:
-   *   `VITE_API_URL` = `<YOUR_RENDER_BACKEND_URL>/api` (e.g. `https://gadgethub-backend.onrender.com/api`)
-4. Click **Deploy**!

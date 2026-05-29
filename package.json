@@ -1,0 +1,10 @@
+{
+  "name": "gadgethub-monorepo",
+  "version": "1.0.0",
+  "description": "GadgetHub Monorepo root package.json for automated deployment",
+  "scripts": {
+    "install-backend": "npm install --prefix backend",
+    "build": "npm install --prefix backend",
+    "start": "npm start --prefix backend"
+  }
+}
